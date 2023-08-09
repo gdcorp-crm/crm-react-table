@@ -1,12 +1,12 @@
 {
-  "name": "react-table",
-  "version": "6.10.3",
+  "name": "crm-react-table",
+  "version": "6.10.4",
   "description": "A fast, lightweight, opinionated table and datagrid built on React",
   "license": "MIT",
   "homepage": "https://github.com/react-tools/react-table#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-tools/react-table.git"
+    "url": "git+https://github.com/gdcorp-crm/crm-react-table.git"
   },
   "keywords": [
     "react",
@@ -41,6 +41,9 @@
     "postpublish": "git push --tags",
     "docs": "yarn watch & cd docs && yarn && yarn start",
     "docs:build": "yarn build && cd docs && yarn && yarn build"
+  },
+  "publishConfig": {
+    "registry": "https://artifactory.secureserver.net/artifactory/api/npm/node-crm-local/"
   },
   "dependencies": {
     "classnames": "^2.2.5"
