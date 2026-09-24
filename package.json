@@ -120,7 +120,9 @@
   "resolutions": {
     "@adobe/css-tools": "4.3.1",
     "@babel/traverse": "7.23.2",
+    "browserslist": "4.29.0",
     "get-func-name": "2.0.2",
+    "immutable": "4.3.9",
     "postcss": "8.4.31"
   }
 }
