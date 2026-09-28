@@ -1,7 +1,6 @@
 version: 2
 updates:
-  # npm — the single root lockfile covers the workspaces (packages/* and examples/*).
-  # old-examples/ (per-directory lockfiles) was removed, so scanning is scoped to "/".
+  # npm — the single root lockfile covers the packages/* workspaces, so scanning is scoped to "/".
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
